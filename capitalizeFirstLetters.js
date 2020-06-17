@@ -1,11 +1,14 @@
-const assert = require("asset");
+const assert = require("assert");
 
-// Function
+// FUNCTION
+const capitalizeFirstLetters = (input) => {};
 
+// TESTS
 assert.strictEqual(typeof capitalizeFirstLetters, "function");
-assert.strictEqual(capitalizeFirstLetters.lenght, 1);
+assert.strictEqual(capitalizeFirstLetters.length, 1);
 assert.strictEqual(
-  capitalizeFirstLetters("i am learning TDD", "I Am Learning TDD")
+  capitalizeFirstLetters("i am learning TDD"),
+  "I Am Learning TDD"
 );
 assert.strictEqual(capitalizeFirstLetters("a"), "A");
 assert.strictEqual(capitalizeFirstLetters(""), "");
